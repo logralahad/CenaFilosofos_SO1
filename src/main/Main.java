@@ -71,7 +71,7 @@ public class Main {
         Filosofo cena[] = new Filosofo[8];
         cena = iniciar(cena);
         Filosofo tiempos[] = cena;
-        int tiempo_cena = rand.nextInt(100);
+        int tiempo_cena = 9 + rand.nextInt(91);
         
         while(tiempo_cena > 0){
             tiempo_cena--;
@@ -84,6 +84,8 @@ public class Main {
                 else{
                     tiempos[i].tiempo_hambre--;
                 }
+            }
+            if(tiempo_cena % 9 == 0){
                 imprimir(tiempos);
                 System.out.print("\n");
             }
