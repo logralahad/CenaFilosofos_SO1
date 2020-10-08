@@ -56,7 +56,7 @@ public class Main {
                 System.out.println("El filosofo " + (i + 1) + " se murio de hambre.");
             }else{
                 if(lista[i].comiendo == false){
-                    System.out.println("El filosofo " + (i + 1) + " esta esperando.");
+                    System.out.println("El filosofo " + (i + 1) + " esta pensando.");
                 }
                 else{
                     System.out.println("El filosofo " + (i + 1) + " esta comiendo.");
